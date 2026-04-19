@@ -14,7 +14,6 @@ from frappe.desk.page.setup_wizard.setup_wizard import make_records
 from frappe.utils import cstr, getdate
 
 from erpnext.accounts.doctype.account.account import RootNotEditable
-from erpnext.regional.address_template.setup import set_up_address_templates
 from erpnext.setup.utils import identity as _
 
 
@@ -349,7 +348,6 @@ def install(country=None):
 
 	make_default_records()
 	make_records(records)
-	set_up_address_templates(default_country=country)
 	update_selling_defaults()
 	update_buying_defaults()
 	add_uom_data()
