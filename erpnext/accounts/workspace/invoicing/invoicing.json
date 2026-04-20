@@ -420,17 +420,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Lower Deduction Certificate",
-   "link_count": 0,
-   "link_to": "Lower Deduction Certificate",
-   "link_type": "DocType",
-   "onboard": 0,
-   "only_for": "India",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Accounting Masters",
    "link_count": 8,
    "link_type": "DocType",

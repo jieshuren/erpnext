@@ -24,7 +24,6 @@
   "conversion_rate",
   "column_break_fqoe",
   "under_withheld_reason",
-  "lower_deduction_certificate",
   "source_section",
   "withholding_doctype",
   "withholding_name",
@@ -116,75 +115,10 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "lower_deduction_certificate",
-   "fieldtype": "Link",
-   "label": "Lower Deduction Certificate",
-   "options": "Lower Deduction Certificate",
-   "read_only": 1
-  },
-  {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "\nSettled\nUnder Withheld\nOver Withheld\nDuplicate\nCancelled",
-   "read_only": 1
-  },
-  {
-   "fieldname": "currency",
-   "fieldtype": "Link",
-   "label": "Currency",
-   "options": "Currency",
-   "read_only": 1
-  },
-  {
-   "fieldname": "conversion_rate",
-   "fieldtype": "Float",
-   "label": "Exchange Rate",
-   "precision": "9",
-   "read_only": 1
-  },
-  {
-   "fieldname": "withholding_doctype",
-   "fieldtype": "Link",
-   "label": "Withholding Document Type",
-   "options": "DocType"
-  },
-  {
-   "fieldname": "withholding_name",
-   "fieldtype": "Dynamic Link",
-   "label": "Withholding Document Name",
-   "options": "withholding_doctype"
-  },
-  {
-   "fieldname": "taxable_doctype",
-   "fieldtype": "Link",
-   "label": "Taxable Document Type",
-   "options": "DocType"
-  },
-  {
-   "fieldname": "taxable_name",
-   "fieldtype": "Dynamic Link",
-   "in_list_view": 1,
-   "label": "Taxable Document Name",
-   "options": "taxable_doctype"
-  },
-  {
-   "fieldname": "taxable_date",
-   "fieldtype": "Date",
-   "label": "Taxable Date",
-   "read_only": 1
-  },
-  {
-   "fieldname": "withholding_date",
-   "fieldtype": "Date",
-   "label": "Withholding Date",
-   "read_only": 1
-  },
-  {
    "fieldname": "under_withheld_reason",
    "fieldtype": "Select",
    "label": "Under Withheld Reason",
-   "options": "\nThreshold Exemption\nLower Deduction Certificate",
+   "options": "\nThreshold Exemption",
    "read_only": 1
   },
   {

@@ -104,18 +104,6 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "notebook-text",
-   "indent": 0,
-   "keep_closed": 0,
-   "label": "Deduction Certificate",
-   "link_to": "Lower Deduction Certificate",
-   "link_type": "DocType",
-   "show_arrow": 0,
-   "type": "Link"
-  },
-  {
-   "child": 0,
-   "collapsible": 1,
    "icon": "sheet",
    "indent": 1,
    "keep_closed": 1,
