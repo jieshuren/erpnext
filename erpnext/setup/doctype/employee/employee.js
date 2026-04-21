@@ -121,6 +121,18 @@ frappe.ui.form.on("Employee", {
 		frm.events.update_contact(frm);
 	},
 
+	expense_approver: function (frm) {
+		set_user_link_title(frm, "expense_approver");
+	},
+
+	leave_approver: function (frm) {
+		set_user_link_title(frm, "leave_approver");
+	},
+
+	shift_request_approver: function (frm) {
+		set_user_link_title(frm, "shift_request_approver");
+	},
+
 	update_contact: function (frm) {
 		var prefered_email_fieldname = frappe.model.scrub(frm.doc.prefered_contact_email) || "user_id";
 		frm.set_value("prefered_email", frm.fields_dict[prefered_email_fieldname].value);
@@ -176,3 +188,20 @@ frappe.tour["Employee"] = [
 		),
 	},
 ];
+
+function set_user_link_title(frm, fieldname) {
+	const user_id = frm.doc[fieldname];
+	if (!user_id) {
+		return;
+	}
+
+	frappe.db.get_value("User", user_id, "full_name").then((r) => {
+		const full_name = r?.message?.full_name;
+		if (!full_name) {
+			return;
+		}
+
+		frappe.utils.add_link_title("User", user_id, full_name);
+		frm.refresh_field(fieldname);
+	});
+}
