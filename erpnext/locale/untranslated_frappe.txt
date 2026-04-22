@@ -1,0 +1,346 @@
+ You are impersonating as another user.
+'*' is only allowed in {0} SQL function(s)
+0 - too guessable: risky password.\n<br>\n1 - very guessable: protection from throttled online attacks. \n<br>\n2 - somewhat guessable: protection from unthrottled online attacks.\n<br>\n3 - safely unguessable: moderate protection from offline slow-hash scenario.\n<br>\n4 - very unguessable: strong protection from offline slow-hash scenario.
+Add CSS
+Add New
+Add Reply-To header
+Add X-Original-From header
+Add multiple
+Add numbers or special characters.
+Add row
+Add to Desktop
+Add/Update Filter
+Addresses added here will be used as the Reply-To header for outgoing emails sent from this account.
+Adds a clear (×) button to Link fields, allowing users to quickly remove the selected value.
+Alignment
+Allow Clearing Link Fields
+Allows printing or PDF download of documents.
+Allows sharing document access with other users.
+Allows the user to access reports related to the document.
+Allows the user to create new documents.
+Allows the user to delete documents.
+Allows the user to edit existing records they have access to.
+Allows the user to email from the document.
+Allows the user to export data from the Report view.
+Allows the user to search and see records.
+Allows the user to use Data Import tool to create / update records.
+Allows the user to view the document.
+Allows users to enable the mask property for any field of the respective doctype.
+Already amended as {0}
+Applies To (DocType)
+Apply Module Export Filter
+Are you sure you want to delete all {0} rows?
+Are you sure you want to log out?
+Attach Files
+Attachment Not Found
+Attachment Settings
+Attending
+Audits
+Automatic sending of emails is disabled via site config.
+Automation
+Background Job
+Button Color
+Cancel Import
+Cancel Prepared Report
+Cannot attach a folder to a document
+Cannot delete Desktop Icon '{0}' as it is restricted
+Check this if the Update Value is a formula or expression (e.g. doc.amount * 2). Leave unchecked for plain text values.
+Child Item
+Clear Link
+Clear all filters
+Click on {0} to edit
+Common words are easy to guess.
+Communication Date
+Copied {0} {1} to clipboard
+Copy Apps Version
+Copy File URL
+Create Saved Filter
+Created By You
+Created By {0}
+Customize Quick Filters
+DELAY
+Data Import is not allowed for {0}. Enable 'Allow Import' in DocType settings.
+Date after which this security.txt should be considered stale.
+Days Remaining
+Defaults to `en`
+Delete all
+Delete all {0} rows
+Delete row
+Delete {0} rows
+Delivery Status Notification Type
+Desktop
+Desktop Layout
+Desktop Settings
+Dinars
+Disable Product Suggestion
+DocType Missing
+Document Name must not be empty
+Document cannot be used as a filter value
+Documentation
+Duplicate row
+Duplicate rows
+Duplicate {0} rows
+Edit Filter
+Edit Sidebar
+Email Sent
+Email sending undone
+Email size {0:.2f} MB exceeds the maximum allowed size of {1:.2f} MB
+Email undo window is over. Cannot undo email.
+Enable System Notification
+Enter Email Recipient(s) in the To, CC, or BCC fields
+Enter list of Options, each on a new line.
+Enter the fieldname of the currency field or a cached value (e.g. Company:company:default_currency).
+Error parsing nested filters: {0}. {1}
+Error validating "Ignore User Permissions"
+Error {0}: {1}
+Evaluate as Expression
+Event Notifications
+Expiration date must be in the future
+Expires
+Export only customizations assigned to the selected module.<br><span class='text-muted'><strong>Note:</strong> You must set the <em>Module (for export)</em> field on Custom Field and Property Setter records before applying this filter.</span><p class='alert alert-warning'> <strong>Warning:</strong> Customizations from other modules will be excluded.</p>
+FAILURE
+Failed Login Attempts
+Failed to delete communication
+Failed to retrieve the list of IMAP folders from the server. Please ensure the mailbox is accessible and the account has permission to list folders.
+Fetching fields from {0}...
+Field <code>{0}</code> not found in {1}
+File URL is required when copying an existing attachment.
+File upload failed.
+Filter Area
+Filter fields have invalid backtick notation: {0}
+Filtered by: {0}.
+First
+Following documents are linked with {0}
+For comparison, use >5, <10 or =324.\nFor ranges, use 5:10 (for values between 5 & 10).
+Framework
+From Attach Field
+From Field
+Getting Started
+Go to Login Required field
+Google Calender
+Guidelines and policies on vulnerability reporting. Defaults to `https://frappe.io/security`
+HTML Message
+Has Attachments
+Header Icon
+Health Report
+Help: To link to another record in the system, use "/desk/note/[Note Name]" as the Link URL. (don't use "http://")
+Hidden columns include: <br> {0}
+IMAP Folder Not Found
+IMAP Folder Validation Failed
+IMAP Folder name cannot be empty.
+Icon Image
+Icon Style
+Icon Type
+Icon is not correctly configured please check the workspace sidebar to it
+If enabled, only System Managers can upload public files. Other users can't see the checkbox <i>Is Private</i> in the upload dialog.
+If the user enables the mask property for the phone number field, the value will be displayed in a masked format (e.g., 811XXXXXXX).
+If the user has access to Employee and Report is enabled, they can view Employee-based reports.
+If this email is registered with us, we have sent password reset instructions to it. Please check your inbox.
+Image Height (px)
+Image Width (px)
+Interval
+Invalid Credentials for Email Account: {0}
+Invalid argument type: {0}. Only strings, numbers, dicts, and None are allowed.
+Invalid expression in Workflow Update Value: {0}
+Invalid nested expression: dictionary must represent a function or operator
+Invalid {0} dictionary format
+It is too late to undo this email. It is already being sent.
+Job stopped successfully
+Keep Closed
+Last
+Last Edited by You
+Last Edited by {0}
+Layout
+Liked by me
+Liked by {0} people
+Linked with {0}
+Login Activity
+Login to view
+Logo URL
+Manage Billing
+Maybe
+Meaning of Different Permission Types
+More Options
+My Workspaces
+N/A
+NEVER
+Navigation Buttons
+Next Actions
+No IMAP folders were found on the server. Please verify the email account settings and ensure the mailbox contains folders.
+No attachment found for the prepared report
+No currency fields in {0}
+No data to perform this action
+No matching entries in the current results
+No rows selected
+No user has the role <strong>{0}</strong>
+Not permitted. {0}.
+OAuth Provider
+OTP SMS Template
+OTP SMS Template must contain <code>{0}</code> placeholder to insert the OTP.
+OTP placeholder should be defined as <code>{{ otp }}</code> 
+Only Custom Modules can be renamed.
+Only System Managers can make this file public.
+Only allow System Managers to upload public files
+Open Link
+Open Translation
+Open in new tab
+Operator {0} requires exactly 2 arguments (left and right operands)
+Original
+POP3 OAuth authentication failed for Email Account {0}
+Parent Icon
+Password requirements not met
+Path {0} is not within module {1}
+Permission
+Permission Type '{0}' is reserved. Please choose another name.
+Please adjust filters to include some data
+Please save the form before previewing the message
+Please select a DocType in options before setting filters
+Please specify the field from which to attach files
+Please update your security settings from desk.
+Policy
+Preferred Language
+Printing
+Public Policy URL must start with https://
+Published Web Forms
+Published Web Pages
+Push Notification
+Raw HTML can be used only with Email Templates having 'Use HTML' checked. Proceeding with plain text email.
+Raw HTML emails are rendered as complete Jinja templates. Otherwise, emails are wrapped in the standard.html email template, which inserts brand_logo, header and footer.
+Refresh List
+Remove Filter
+Removed Icons
+Reply To Address
+Reply To email is required
+Reply-To Addresses
+Reset All
+Response Headers
+Restrict Removal
+Route Options
+Route: Example "/desk"
+SQL Conditions. Example: {"status" : "open", "priority" : "medium"}
+SQL functions are not allowed as strings in SELECT: {0}. Use dict syntax like {{'COUNT': '*'}} instead.
+SUCCESS
+SUCCESS,FAILURE
+SUCCESS,FAILURE,DELAY
+Sales without complexity, lock-in and per-user costs. Try it for free!
+Saving Changes...
+Saving Sidebar
+Scan
+Search for countries...
+Search for icons...
+Search or type a command
+Search the docs (Press / to focus)
+Security Alert: Your account is being impersonated
+Security Alert: Your password has been changed.
+Security Error: The Path provided is not safe.
+Security Settings Contact
+Security Settings Language
+Security.txt
+Security.txt will be served only under HTTPS.
+Security.txt will expire soon!
+Select which delivery events should trigger a delivery status notification (DSN) from the SMTP server.
+Send As Raw HTML
+Server error during upload. The file might be corrupted.
+Setting
+Show Arrow
+Show Description on Click
+Sidebar Item Group
+Sidebar Item Group Link
+Site
+Size exceeds the maximum allowed file size.
+Skip All
+Solid
+Subtle
+Support without complexity, lock-in and per-user costs. Try it for free!
+Switch to Frappe CRM
+Switch to Helpdesk
+System Users
+Tab
+Table MultiSelect requires a table with at least one Link field, but none was found in {0}
+The Bulk Update could not happen due to <b>{0}</b>
+The configured SMTP server does not support DSN (Delivery Status Notification).
+The email button is enabled for the user in the document.
+The field {0} in {1} does not allow ignoring user permissions
+The field {0} in {1} links to {2} and not {3}
+The following configured IMAP folder(s) were not found or are not accessible on the server:<br><ul>{0}</ul>Please verify the folder names exactly as they appear on the server and ensure the account has access to them.
+The print button is enabled for the user in the document.
+The user can create a new Item but cannot edit existing items.
+The user can delete Draft / Cancelled documents.
+The user can export report data.
+The user can import new records or update existing data for the document.
+The user can select a Customer in Sales Order but cannot open the Customer master.
+The user can share document access with another user.
+The user can update a customer or any other fields in an existing Sales Order but cannot create a new Sales Order.
+The user can view Sales Invoices but cannot modify any field values in them.
+The value of the field {0} is too long in the {1} document. To resolve this issue, please reduce the value length or change the {0} field Type to Long Text using customize form, and then try again.
+Toggle Awesomebar
+Toggle sidebar
+Too many requests. Please try again later.
+Tools
+Translations can be viewed by guests, avoid storing private details in translations.
+URL contact must start with https://
+Unsupported function or operator: {0}
+Unsupported {0}: {1}
+Use a few uncommon words together.
+User {0} has started an impersonation session as you. <br><br><b>Reason provided:</b> {1}
+Value Too Long
+Value to set when this workflow state is applied. Use plain text (e.g. Approved) or an expression if “Evaluate as Expression” is enabled.
+View Docs
+View Sidebar
+View all {0} users
+Visit Desktop
+Warning: Usage of 'format:' is discouraged.
+Website Themes Available
+Website Users
+Website Visits
+Website, email or phone where vulnerabilities can be reported. Defaults to `https://security.frappe.io`
+Welcome to Frappe!
+Welcome to the {0} workspace
+Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update their properties from the sidebar.
+Workflow Evaluation Error
+Workspace Sidebar
+Workspace Sidebar Item
+Workspace added to desktop
+XMLHttpRequest Error
+You are not allowed to delete a standard Notification. You can disable it instead.
+You are not allowed to update the status of this event.
+You are not authorized to undo this email
+You can only upload JPG, PNG, GIF, PDF, TXT, CSV or Microsoft documents.
+You can't set standard field {0} as virtual
+You cannot share `{0}` on {1} `{2}` as you do not have `{0}` permission on `{1}`
+You do not have import permission for {0}
+You do not have permission to access child table field: {0}
+You need to be {0} to rename this document
+Your password has been changed and you might have been logged out of all systems.<br>Please contact the Administrator for further assistance.
+completed
+e.g. (55 + 434) / 4
+empty
+is disabled
+is enabled
+steps completed
+to close
+to navigate
+to select
+{0} contains {1}
+{0} does not contain {1}
+{0} equals {1}
+{0} has invalid backtick notation: {1}
+{0} is a descendant of {1}
+{0} is after {1}
+{0} is an ancestor of {1}
+{0} is before {1}
+{0} is between {1}
+{0} is disabled
+{0} is enabled
+{0} is not a descendant of {1}
+{0} is not an ancestor of {1}
+{0} is on or after {1}
+{0} is on or before {1}
+{0} is {1}
+{0} of {1} records match (filtered on visible rows only)
+{0} restricted document
+{0} restricted documents
+{0} with the role <strong>{1}</strong>
+{0}.
+{0}: fieldname cannot be set to reserved field {1} in DocType
+第 {0} 行：项目 {1} 归属于 {2}，但选择的部门是 {3}，请修改！

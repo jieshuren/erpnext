@@ -1,0 +1,487 @@
+\n			The Batch {0} of an item {1} has negative stock in the warehouse {2}{3}.\n			Please add a stock quantity of {4} to proceed with this entry.\n			If it is not possible to make an adjustment entry, please enable 'Allow Negative Stock for Batch' in Stock Settings to proceed.\n			However, enabling this setting may lead to negative stock in the system.\n			So please ensure the stock levels are adjusted as soon as possible to maintain the correct valuation rate.
+  
+ Phantom Item
+% Cost Allocation
+<b>Cannot create asset.</b><br><br>You're trying to create <b>{0} asset(s)</b> from {2} {3}.<br>However, only <b>{1} item(s)</b> were purchased and <b>{4} asset(s)</b> already exist against {5}.
+<span class="h4"><b>Subcontracting Inward and Outward</b></span>
+A naming series conflict occurred while creating serial numbers. Please change the naming series for the item {0}.
+ALL records will be deleted (entire DocType cleared)
+AP Summary
+AR Summary
+Accounting entries are frozen up to this date. Only users with the specified role can create or modify entries before this date.
+Activate Serial / Batch No for Item
+Active Subcontracted Items
+Add Multiple
+Add Phantom Item
+Additional Discount Amount ({discount_amount}) cannot exceed the total before such discount ({total_before_discount})
+Additional Finished Good
+Additional {0} {1} of item {2} required as per BOM to complete this transaction
+Advance Paid (Company Currency)
+After save, please refresh the page to apply the changes.
+Allow Editing of Items and Quantities in Work Order
+Allow Negative Stock for Batch
+Asset Type
+Assets Setup
+At Row {0}: In Serial and Batch Bundle {1} must have docstatus as 1 and not 0
+At least one raw material item must be present in the stock entry for the type {0}
+Auto Created (Reorder)
+Auto User Creation Error
+Available / Future Inventory
+Available for Use Date
+Average Order Value
+Average Order Values
+BOM Configuration
+BOM Secondary Item
+BOM Secondary Item Reference
+BOM Stock Analysis
+BOM and Finished Good Quantity is mandatory for Disassembly
+Bank Reconciliation
+Base Cost (Company Currency)
+Batch Qty updated successfully
+Budget Variance
+Buying Setup
+By-Product
+Campaign {0} not found
+Cannot add child table {0} to deletion list. Child tables are automatically deleted with their parent DocTypes.
+Cannot cancel Stock Reservation Entry {0}, as it has used in the work order {1}. Please cancel the work order first or unreserved the stock
+Cannot delete protected core DocType: {0}
+Cannot delete virtual DocType: {0}. Virtual DocTypes do not have database tables.
+Cannot disable Serial and Batch No for Item, as there are existing records for serial / batch.
+Cannot disable {0} as it may lead to incorrect stock valuation.
+Cannot disassemble {0} qty against Stock Entry {1}. Only {2} qty available to disassemble.
+Cannot produce more Item {0} than Sales Order quantity {1} {2}
+Cannot select a Group type Customer Group. Please select a non-group Customer Group.
+Cannot start deletion. Another deletion {0} is already queued/running. Please wait for it to complete.
+Capitalize this asset before submitting.
+Check Availability in Warehouse
+Child DocTypes
+Child Table Not Allowed
+Child tables that will also be deleted
+Clear Last Scanned Warehouse
+Co-Product
+Company Field
+Company link field name used for filtering (optional - leave empty to delete all records)
+Company or Personal Email is mandatory when 'Create User Automatically' is enabled
+Completed Projects
+Components
+Composite Asset
+Composite Component
+Connection
+Consolidated Report
+Consume Components
+Consumed quantity of item {0} exceeds transferred quantity.
+Controls how raw materials are consumed during the ‘Manufacture’ stock entry.
+Cost Allocation
+Cost Allocation %
+Cost Allocation / Process Loss
+Cost allocation between finished goods and secondary items should equal 100%
+Create Asset Category
+Create Asset Item
+Create Asset Location
+Create Bill of Materials
+Create Customer
+Create Existing Asset
+Create Finished Good
+Create Finished Goods
+Create Item
+Create Operation
+Create Operations
+Create Payment Request
+Create Project
+Create Purchase Invoice
+Create Purchase Receipt
+Create Raw Material
+Create Raw Materials
+Create Service Item
+Create Subcontracted Item
+Create Subcontracting Order
+Create Subcontracting PO
+Create Subcontracting Purchase Order
+Create Supplier
+Create Task
+Create Tasks
+Create Transfer Entry
+Create User Automatically
+Create Warehouses
+Create Work Order
+Create delivery note
+Create supplier
+Creates a User account for this employee using the Preferred, Company, or Personal email.
+Creating demo data
+Customer Ledger
+Customer POS ID
+Default Sales Contact
+Default Stock Valuation Method
+Defines the date after which the item can no longer be used in transactions or manufacturing
+Delete Demo Data
+Deletion process restarted
+Deletion will start automatically after submission.
+Deliver Secondary Items
+Demo Data creation failed.
+Demo data creation failed. Check notifications for more info.
+Disassemble Qty cannot be less than or equal to 0.
+Disassemble Qty cannot be less than or equal to <b>0</b>.
+Do Not Use Batchwise Valuation
+DocType can be one of them {0}
+DocType {0} does not exist
+DocType {0} with company field '{1}' is already in the list
+DocTypes To Delete
+DocTypes that will NOT be deleted.
+DocTypes with a company field:
+DocTypes without a company field:
+Document Count
+Document No
+Duplicate DocType
+Duplicate Item Under Same Parent
+Duplicate Serial Number Error
+Duplicate entry: {0}{1}
+EAN-13
+ERPNext
+ERPNext Settings
+Email Campaign Error
+Email Campaign Send Error
+Email is required to create a user
+Email is required to create a user.
+Employee is required
+Employee {0} already has a linked user
+Employee {0} not found
+Empty To Delete List
+Enable Parallel Reposting
+Enable Separate Reposting for GL
+Enable Serial / Batch Bundle
+Enable UTM
+Enable Urchin Tracking Module parameters in Quotation, Sales Order, Sales Invoice, POS Invoice, Lead,  and Delivery Note.
+Enable to reserve a small sample from each batch for any analysis arising ahead
+Enable tracking sales commissions
+Enter Company Details
+Error getting details for {0}: {1}
+Excess Disassembly
+Existing Asset
+Exit
+FG Items to Make
+Failed to create demo data
+Failed to send email for campaign {0} to {1}
+Failed to set defaults
+Feedback Template
+Field '{0}' is not a valid Company link field for DocType {1}
+File does not belong to this Transaction Deletion Record
+File not found
+File not found on server
+For operation {0} at row {1}, please add raw materials or set a BOM against it.
+For project - {0}, update your status
+For the item {0}, the consumed quantity should be {1} according to the BOM {2}.
+Frappe School
+From BOM No
+From Date cannot be greater than To Date.
+Full Name, Email or Phone/Mobile of the user are mandatory to continue.
+GTIN-14
+Generate To Delete List
+Generate To Delete list first
+Get Secondary Items
+Getting Secondary Items
+Has Operating Cost
+How many units of the final product this BOM makes.
+IMPORTANT: Create a backup before proceeding!
+If enabled, system will set incoming rate as zero for stand-alone credit notes with expired batch item.
+If enabled, the Secondary Items generated against a Finished Good will also be added in the Stock Entry when delivering that Finished Good.
+If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate. This will allow the user to specify a different rate for printing or taxation purposes.
+If enabled, the source and target warehouse in the Material Transfer Stock Entry must be different else an error will be thrown. If inventory dimensions are present, same source and target warehouse can be allowed but atleast any one of the inventory dimension fields must be different.
+If enabled, the system will allow negative stock entries for the batch. But, this may lead to incorrect valuation rates, so it is recommended to avoid using this option. The system will permit negative stock only when it is caused by backdated entries and will validate and block negative stock in all other cases.
+If enabled, the system will allow users to edit the raw materials and their quantities in the Work Order. The system will not reset the quantities as per the BOM, if the user has changed them.
+If the reorder check is set at the Group warehouse level, the available quantity becomes the sum of the projected quantities of all its child warehouses.
+If you want to run operations in parallel, keep the same sequence ID for them.
+Image in the description has been removed. To disable this behavior, uncheck "{0}" in {1}.
+Import Employees
+Import Summary
+Imported {0} DocTypes
+Incorrect Account
+Incorrect Company
+Internal Customer Accounting
+Internal Supplier Accounting
+Invalid CSV format. Expected column: doctype_name
+Invalid Company Field
+Invalid Customer Group
+Invalid Discount Amount
+Invalid Source and Target Warehouse
+Invalid file URL
+Inventory Valuation
+Invite Users
+Inward Order
+Is Half Day
+Is Legacy
+Is Legacy Scrap Item
+Is Phantom BOM
+Is Phantom Item
+Item Price Added for {0} in Price List {1}
+Item Wise Tax Details do not match with Taxes and Charges at the following rows:
+Item {0} added multiple times under the same parent item {1} at rows {2} and {3}
+Item-wise sales Register
+Items To Be Received
+Items not found.
+Job Card Secondary Item
+Job Worker Currency
+Learn Asset
+Learn Subcontracting
+Ledger Type
+Ledgers Posted
+Main Item Code
+Make a call
+Manage sales partner's and sales team's commissions
+Manufactured Items Value
+Manufacturing Setup
+Material Planning
+Material Request already created for the ordered quantity
+Materials To Be Transferred
+Maximum Producible Items
+Messaging CRM Campaign
+Min Value: {0}, Max Value: {1}, in Increments of: {2}
+Missing Parameter
+Missing Warehouse
+Multiple company fields available: {0}. Please select manually.
+Naming series '{0}' for DocType '{1}' does not contain standard '.' or '{{' separator. Using fallback extraction.
+Negative Batch Report
+New Lead (Last 1 Month)
+New Opportunity (Last 1 Month)
+No DocTypes in To Delete list. Please generate or import the list before submitting.
+No Items with Bill of Materials to Manufacture or all items already manufactured
+No email found for {0} {1}
+No of Items to Repost
+No of Parallel Reposting (Per Item)
+No pending payment schedules available.
+No recipients found for campaign {0}
+No rows with zero document count found
+No stock available for this batch.
+Non Completed Tasks
+Non-phantom BOM cannot be created for non-stock item {0}.
+Onboarding for Stock!
+Only CSV files are allowed
+Only one operation can have 'Is Final Finished Good' checked when 'Track Semi Finished Goods' is enabled.
+Optional. Select a specific manufacture entry to reverse.
+Outward Order
+Ownership
+Parent Task {0} must be a Group Task
+Partially Billed
+Payment Reconciliaition
+Payment Schedules
+Phantom BOM cannot be created for stock item {0}.
+Phantom Item
+Phantom Item is mandatory
+Please add Operations first.
+Please capitalize this asset before submitting.
+Please check the 'Activate Serial and Batch No for Item' checkbox in the {0} to make Serial and Batch Bundle for the item.
+Please enter Batch No
+Please enter Serial No
+Please first set Full Name, Email and Phone for the user
+Please generate To Delete list before submitting
+Please generate the To Delete list before submitting
+Please save the Sales Order before adding a delivery schedule.
+Please select a company.
+Please select at least one row with difference value
+Please select at least one schedule.
+Please select the Warehouse first
+Please select the document type first.
+Please set actual demand or sales forecast to generate Material Requirements Planning Report.
+Posting date is required
+Previous Qty
+Process Loss %
+Processing import...
+Production Item Info
+Projected On Hand
+Projects Setup
+Protected DocType
+Purchase Orders Count
+Purchase Receipt Trends 
+Purchase Tax Withholding Category
+Qty (As per BOM)
+Qty To Manufacture in the job card cannot be greater than Qty To Manufacture in the work order for the operation {0}. <br><br><b>Solution: </b> Either you can reduce the Qty To Manufacture in the job card or set the 'Overproduction Percentage For Work Order' in the {1}.
+Qty to Disassemble
+Quality Inspection is required for the item {0} before completing the job card {1}
+Quality Inspection {0} is not submitted for the item: {1}
+Quality Inspection {0} is rejected for the item: {1}
+Quality Inspections
+Quantity (Output Qty)
+Quantity is mandatory for the selected items.
+Quantity must be greater than zero
+Quantity must be less than or equal to {0}
+RFQ and Purchase Order Settings
+Raw Materials Missing
+Raw materials consumed qty will be validated based on FG BOM required qty
+Reconciliation Statement
+Registers
+Remove Zero Counts
+Removed {0} rows with zero document count. Please save to persist changes.
+Repost Item Valuation restarted for selected failed records.
+Repost Only Accounting Ledgers
+Reposting Item and Warehouse
+Reposting Reference
+Reposting Vouchers
+Reposting Vouchers Progress
+Reposting for Item-Wh Completed {0}%
+Reposting for Vouchers Completed {0}%
+Reserved Batch Conflict
+Reserved Inventory
+Restart Failed Entries
+Returned Quantity
+Review Buying Settings
+Review Manufacturing Settings
+Review Selling Settings
+Review Stock Settings
+Review System Settings
+Roles Allowed to Set and Edit Frozen Account Entries
+Row #{0}: Cannot cancel this Manufacturing Stock Entry as quantity of Secondary Item {1} produced cannot be less than quantity delivered.
+Row #{0}: Expense account {1} is not valid for Purchase Invoice {2}. Only expense accounts from non-stock items are allowed.
+Row #{0}: Finished Good reference is mandatory for Secondary Item {1}.
+Row #{0}: Frequency of Depreciation must be greater than zero
+Row #{0}: Item {1} cannot be transferred more than {2} against {3} {4}
+Row #{0}: Item {1} has zero rate but '{2}' is not enabled.
+Row #{0}: Process Loss Percentage should be less than 100% for {1} Item {2}
+Row #{0}: Quantity should be greater than 0 for {1} Item {2}
+Row #{0}: Rejected Qty cannot be set for Secondary Item {1}.
+Row #{0}: Repair cost {1} exceeds available amount {2} for Purchase Invoice {3} and Account {4}
+Row #{0}: Secondary Item Qty cannot be zero
+Row #{0}: Selling rate for item {1} is lower than its {2}.\n					Selling {3} should be atleast {4}.<br><br>Alternatively,\n					you can disable '{5}' in {6} to bypass\n					this validation.
+Row #{0}: Source and Target Warehouse cannot be the same for Material Transfer
+Row #{0}: Source, Target Warehouse and Inventory Dimensions cannot be the exact same for Material Transfer
+Row #{0}: Total Number of Depreciations must be greater than zero
+Row #{0}: Warehouse {1} does not match with the warehouse {2} in Serial and Batch Bundle {3}.
+Row {0}: Consumed Qty {1} {2} must be less than or equal to Available Qty For Consumption\n					{3} {4} in Consumed Items Table.
+Row {0}: Expected Value After Useful Life cannot be negative
+Row {0}: Expense Account {1} is linked to company {2}. Please select an account belonging to company {3}.
+Row {0}: Item {1} must be linked to a {2}.
+Row {0}: Operation time should be greater than 0 for operation {1}
+Row {0}: The entire expense amount for account {1} in {2} has already been allocated.
+Row {0}: Transferred quantity cannot be greater than the requested quantity.
+Row {0}: Warehouse is required
+Row {0}: Warehouse {1} is linked to company {2}. Please select a warehouse belonging to company {3}.
+Row {0}: {1} {2} is linked to company {3}. Please select a document belonging to company {4}.
+Sales Order {0} is not available for production
+Sales Tax Withholding Category
+Sample Retention Stock Entry
+Schedule Name
+Scrap
+Secondary Item Code
+Secondary Item Name
+Secondary Items
+Secondary Items Cost
+Secondary Items Cost (Company Currency)
+Secondary Items Cost Per Qty
+Secondary Items Generated
+Select Company Address
+Select Items to Receive
+Select Payment Schedule
+Sell Qty
+Sell quantity cannot exceed the asset quantity
+Sell quantity must be greater than zero
+Selling Setup
+Serial / Batch
+Serial No Series Overlap
+Serial No {0} is already Delivered. You cannot use them again in Manufacture / Repack entry.
+Serial Nos / Batches
+Serial Nos {0} are already Delivered. You cannot use them again in Manufacture / Repack entry.
+Serial and Batch No for Item Disabled
+Set Incoming Rate as Zero for Expired Batch
+Set Operating Cost / Secondary Items From Sub-assemblies
+Set Supplier
+Set this value to 0 to disable the feature.
+Setup Company
+Setup Email Account
+Setup Organization
+Setup Role Permissions
+Setup Warehouse
+Show availability of exploded items
+Since you have enabled 'Track Semi Finished Goods', at least one operation must have 'Is Final Finished Good' checked. For that set the FG / Semi FG Item as {0} against an operation.
+Since {0} has 'Update Stock' disabled, you cannot create repost item valuation against it
+Skipped {0} DocType(s):<br>{1}
+Source Manufacture Entry
+Source Stock Entry (Manufacture)
+Source Stock Entry {0} belongs to Work Order {1}, not {2}. Please use a manufacture entry from the same Work Order.
+Source Stock Entry {0} has no finished goods quantity
+Started a background job to create {1} {0}. {2}
+Status and Reference
+Stock Ledgers won’t be reposted.
+Stock Qty vs Batch Qty
+Stock Reservation Entries created
+Stock Setup
+Stock Value by Item Group
+Stock entries exist with the old account. Changing the account may lead to a mismatch between the warehouse closing balance and the account closing balance. The overall closing balance will still match, but not for the specific account.
+Sub Assembly Item Reference
+Sub assembly item references are missing. Please fetch the sub assemblies and raw materials again.
+Subcontracting Inward Order Count
+Subcontracting Inward Order Secondary Item
+Subcontracting Outward Order
+Subcontracting Outward Order Count
+Subcontracting Setup
+Supplier Ledger
+Supplier Required
+Supplier is required for all selected Items
+Tax Template
+The Company {0} of Sales Forecast {1} does not match with the Company {2} of Master Production Schedule {3}.
+The batch {0} is already reserved in {1} {2}. So, cannot proceed with the {3} {4}, which is created against the {5} {6}.
+The completed quantity {0} of an operation {1} cannot be greater than the completed quantity {2} of a previous operation {3}.
+The final item that will be produced using this BOM.
+The following Purchase Invoices are not submitted:
+The following rows are duplicates:
+The sell quantity is less than the total asset quantity. The remaining quantity will be split into a new asset. This action cannot be undone. <br><br><b>Do you want to continue?</b>
+The {0} prefix '{1}' already exists. Please change the Serial No Series, otherwise you will get a Duplicate Entry error.
+There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit <a href='https://docs.frappe.io/erpnext/user/manual/en/calculation-of-valuation-rate-in-fifo-and-moving-average' target='_blank'>Item Valuation, FIFO and Moving Average.</a>
+This Item is a Template and cannot be used in transactions.<br>All fields present in the 'Copy Fields to Variant' table in Item Variant Settings will be copied to its variant items.
+This module is scheduled for deprecation and will be completely removed in version 17, please use <a href="https://frappe.io/crm">Frappe CRM</a> instead.
+This module is scheduled for deprecation and will be completely removed in version 17, please use <a href="https://frappe.io/helpdesk">Frappe Helpdesk</a> instead.
+To Delete list generated with {0} DocTypes
+To include sub-assembly costs and secondary items in Finished Goods on a work order without using a job card, when the 'Use Multi-Level BOM' option is enabled.
+Total Completed Qty is required for Job Card {0}, please start and complete the job card before submission
+Total Ledgers
+Transaction Deletion Document {0} has been triggered for company {1}
+Transaction Deletion Record To Delete
+Transaction Deletion Record {0} is already running. {1}
+Transaction Deletion Record {0} is currently deleting {1}. Cannot save documents until deletion completes.
+Transaction Qty
+Transaction date can't be earlier than previous movement date
+Unable to fetch DocType details. Please contact system administrator.
+Unexpected Naming Series Pattern
+Unit Of Measure
+Update Batch Qty
+Use Posting Datetime for Naming Documents
+Users can make manufacture entry against Job Cards
+Validate Consumed Qty (as per BOM)
+Validate Material Transfer Warehouses
+View Project Summary
+View Purchase Order Analysis
+View Sales Order Analysis
+View Stock Balance
+View Stock Balance Report
+View Stock Ledger
+View Work Order Summary
+View Work Order Summary Report
+Virtual DocType
+WIP Work Orders
+Warehouse is required to get producible FG Items
+Warehouse {0} does not exist
+Warning: Account changed for warehouse
+Warning: This action cannot be undone!
+Watch Video
+What will be deleted:
+When checked, the system will use the posting datetime of the document for naming the document instead of the creation datetime of the document.
+When there are multiple finished goods ({0}) in a Repack stock entry, the basic rate for all finished goods must be set manually. To set rate manually, enable the checkbox 'Set Basic Rate Manually' in the respective finished good row.
+Won Opportunities
+Won Opportunity (Last 1 Month)
+Work Order Mismatch
+Work Order Summary Report
+Work Order {0} has no produced qty
+You cannot outward following {0} as either they are Delivered, Inactive or located in a different warehouse.
+You do not have permission to edit this document
+as of {0}
+{0} can be either {1} or {2}.
+{0} creation for the following records will be skipped.
+{0} is a child table and will be deleted automatically with its parent
+{0} is in Draft. Submit it before creating the Asset.
+{0} is not a CSV file.
+{0} items disassembled
+{0} items returned
+{0} items to return
+{0} units of Item {1} is not available in any of the warehouses. Other Pick Lists exist for this item.
+{0} units of {1} are required in {2} with the inventory dimension: {3} on {4} {5} for {6} to complete the transaction.
+{0}: Child table (auto-deleted with parent)
+{0}: Not found
+{0}: Protected DocType
+{0}: Virtual DocType (no database table)

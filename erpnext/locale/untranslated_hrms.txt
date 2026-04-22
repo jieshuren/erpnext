@@ -1,0 +1,148 @@
+Advance Account Required
+Advance Account is mandatory. Please set the {0} in the Company {1} and submit this document.
+Advance Account {} currency should be same as Salary Currency of Employee {}. Please select same currency Advance Account
+All Exchange Gain/Loss amount of {0} has been booked through {1}
+Allocated Amount (Company Currency)
+Allocated Via
+Allocation Date
+Allocation was skipped due to exceeding annual allocation set in leave policy
+Allocation was skipped due to maximum leave allocation limit set in leave type. Please increase the limit and retry failed allocation.
+Assignment Starts From
+Assignment start date cannot be outside holiday list dates
+Attempted
+Attendance marked successfully.
+Automatic Leave Allocation has failed for the following Earned Leaves: {0}. Please check {1} for more details.
+Base, Variable & Leave Encashment
+Benefit Application
+Benefit Claim
+Boarding Status
+Bulk attendance marking is already in progress for employee {0}. You can monitor the job status {1}
+Bulk attendance marking is queued with a background job. It may take a while. You can monitor the job status {0}
+Cannot allocate more leaves due to maximum leave allocation limit of {0} in leave policy assignment
+Cannot allocate more leaves due to maximum leaves allowed limit of {0} in {1} leave type.
+Duplicate Assignment
+Earned Leave Schedule
+Employee Advance Account
+Employee Company
+Employee Exit
+Employee Hours Utilization
+Employee Referral {0} already exists for email: {1}
+Employee not found
+Employees on leave this month
+Employees on leave today
+Exchange rate of Payment Entry against Employee Advance
+Expenses Settings
+Failure Reason
+Failure of Automatic Allocation of Earned Leaves
+From and to dates are mandatory for recurring type additional salaries.
+Gain Loss Account
+HR Setup
+Holiday List Assignment
+Holiday List Assignment for {0} already exists for date {1}: {2}
+Holiday List End
+Holiday List Start
+Holidays in this month
+Include Shift Attendance Without Checkins
+Is Allocated
+Job Opening Template
+Leave Balance Summary
+Leave Settings
+Leave allocation is skipped for {0}, because number of leaves to be allocated is 0.
+Manually
+No Bank/Cash Account found for currency {0}. Please create one under company {1}.
+No Holiday List was found for Employee {0} or their company {1} for date {2}. Please assign through {3}
+No attendance records to create due to following reasons
+No login methods are available. Please contact your administrator.
+Number of Leaves
+Overwrite Salary Structure Amount is disabled as the Salary Component: {0} not part of the Salary Structure: {1}
+Payroll date is mandatory for non-recurring type additional salaries.
+Please set the Advance Account {0} or in {1}
+Retry Failed
+Retry Failed Allocations
+Retry Successful
+Retrying allocations
+Sanctioned Amount (Company Currency)
+Select if any of the days selected for request are holidays
+Selected employee advance is not of employee {0}
+Selected employee advance is not of employee {}
+Shift and Attendance
+Tenure
+There are multiple shifts assigned to the employee for the same period. Please mention the shift
+There is no Salary Structure assigned to {0}. First assign a Salary Structure.
+Today {0} completed {1} {2} at our Company! 🎉
+Total Advance Amount (Company Currency)
+Total Claimed Amount (Company Currency)
+Total Exchange Gain/Loss
+Total Sanctioned Amount (Company Currency)
+Unclaimed Amount (Company Currency)
+action
+here
+reason
+years
+{0} completed {1} {2}
+{0}. Check error log for more details.
+低于此工作时长标记为半天（设为零则禁用）
+低于此工作时长标记为缺勤（设为零则禁用）
+修订自
+允许加班
+公司
+加班
+加班类型
+半天
+半天工作时长阈值
+另一半状态
+只有在此日期之后才会自动标记考勤。
+启用早退标记
+启用自动考勤
+启用迟到标记
+员工
+员工姓名
+员工详情
+处理考勤起始日期
+如果启用，当存在员工签到记录时，节假日也会自动标记考勤
+实际加班时长
+工作时长
+工作时长计算依据
+开始日期
+开始时间
+排班颜色
+推荐用于单个生物识别设备或通过移动应用签到
+早退
+早退宽限期
+最后一次成功同步员工签到的时间。只有在确认所有位置的日志都已同步时才重置此项。如果不确定，请勿修改。
+最后签到同步时间
+标准工作时长
+根据'员工签到'为分配到此班次的员工标记考勤。
+状态
+班次
+班次地点
+班次开始前允许签到时间（分钟）
+班次开始前多长时间内的员工签到被计入考勤。
+班次开始后多长时间内签到被视为迟到（分钟）。
+班次排班分配
+班次申请
+班次类型
+班次结束前多长时间内签退被视为早退（分钟）。
+班次结束后允许签退时间（分钟）
+班次结束后多长时间内的签退被计入考勤。
+班次详情
+确定签到和签退方式
+签到时间
+签退时间
+系列
+结束日期
+结束时间
+缺勤工作时长阈值
+考勤日期
+考勤申请
+自动更新最后签到同步时间
+自动考勤的迟到早退设置
+自动考勤设置
+节假日列表
+节假日自动标记考勤
+详情
+请假申请
+请假类型
+迟到
+迟到宽限期
+部门
