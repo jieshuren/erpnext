@@ -61953,3 +61953,953 @@ msgstr "反馈意见"
 
 msgid "Personal Bio"
 msgstr "个人简介"
+
+
+msgid "First Name"
+msgstr "名"
+
+msgid "Middle Name"
+msgstr "中间名"
+
+msgid "Last Name"
+msgstr "姓"
+
+msgid "Full Name"
+msgstr "姓名"
+
+msgid "Email ID"
+msgstr "邮箱ID"
+
+msgid "Email Id"
+msgstr "邮箱ID"
+
+msgid "Email Address"
+msgstr "邮箱地址"
+
+msgid "Sender Email"
+msgstr "发件人邮箱"
+
+msgid "Primary Contact"
+msgstr "主要联系人"
+
+msgid "Contacts"
+msgstr "联系人"
+
+msgid "Comments"
+msgstr "备注"
+
+msgid "Company Name"
+msgstr "公司名称"
+
+msgid "Fax"
+msgstr "传真"
+
+msgid "City"
+msgstr "城市"
+
+msgid "State/Province"
+msgstr "省/州"
+
+msgid "Address Line 1"
+msgstr "地址行1"
+
+msgid "Address Line 2"
+msgstr "地址行2"
+
+msgid "IP Address"
+msgstr "IP地址"
+
+msgid "Primary Address"
+msgstr "主要地址"
+
+msgid "Domain"
+msgstr "域"
+
+msgid "Default Letter Head"
+msgstr "默认信头"
+
+msgid "Is Active"
+msgstr "是否活跃"
+
+msgid "Is Standard"
+msgstr "是否标准"
+
+msgid "Dependencies"
+msgstr "依赖项"
+
+msgid "Timeline"
+msgstr "时间线"
+
+msgid "Welcome email sent"
+msgstr "欢迎邮件已发送"
+
+msgid "Assigned To"
+msgstr "分配给"
+
+msgid "Assign To"
+msgstr "分配给"
+
+msgid "Reminder"
+msgstr "提醒"
+
+msgid "Billing"
+msgstr "开票"
+
+msgid "CC"
+msgstr "抄送"
+
+msgid "Email Account"
+msgstr "邮箱账户"
+
+msgid "Email Template"
+msgstr "邮件模板"
+
+msgid "Delivery Status"
+msgstr "交付状态"
+
+msgid "Validate Selling Price for Item Against Purchase Rate or Valuation Rate"
+msgstr "验证物料销售价格与采购价或估价"
+
+msgid "Range"
+msgstr "范围"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Defaults"
+msgstr "默认值"
+
+msgid "Dashboard"
+msgstr "仪表板"
+
+msgid "Overview"
+msgstr "概览"
+
+msgid "Analytics"
+msgstr "分析"
+
+msgid "Experimental"
+msgstr "实验性"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid "Activity"
+msgstr "活动"
+
+msgid "Template"
+msgstr "模板"
+
+msgid "Target"
+msgstr "目标"
+
+msgid "Rating"
+msgstr "评级"
+
+msgid "Category"
+msgstr "类别"
+
+msgid "Level"
+msgstr "级别"
+
+msgid "Parent"
+msgstr "父级"
+
+msgid "Role"
+msgstr "角色"
+
+msgid "Provider"
+msgstr "提供商"
+
+msgid "Duration"
+msgstr "时长"
+
+msgid "Views"
+msgstr "浏览量"
+
+msgid "Likes"
+msgstr "点赞"
+
+msgid "Sent"
+msgstr "已发送"
+
+msgid "Email Sent"
+msgstr "邮件已发送"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Recipients"
+msgstr "收件人"
+
+msgid "Operation"
+msgstr "工序"
+
+msgid "Sequence Id"
+msgstr "序号"
+
+msgid "Start Time"
+msgstr "开始时间"
+
+msgid "Day of Week"
+msgstr "星期几"
+
+msgid "Symbol"
+msgstr "符号"
+
+msgid "Count"
+msgstr "数量"
+
+msgid "Fields"
+msgstr "字段"
+
+msgid "Field Name"
+msgstr "字段名"
+
+msgid "Code"
+msgstr "代码"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Path"
+msgstr "路径"
+
+msgid "Base URL"
+msgstr "基础URL"
+
+msgid "API"
+msgstr "API"
+
+msgid "API Key"
+msgstr "API密钥"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Indicator Color"
+msgstr "指示器颜色"
+
+msgid "Custom?"
+msgstr "自定义?"
+
+msgid "Deleted"
+msgstr "已删除"
+
+msgid "Content Type"
+msgstr "内容类型"
+
+msgid "Attachment"
+msgstr "附件"
+
+msgid "Source Name"
+msgstr "来源名称"
+
+msgid "Query Options"
+msgstr "查询选项"
+
+msgid "Instructions"
+msgstr "说明"
+
+msgid "Schedule"
+msgstr "计划"
+
+msgid "Maintenance Manager"
+msgstr "维护管理员"
+
+msgid "Add Template"
+msgstr "添加模板"
+
+msgid "Get Items"
+msgstr "获取物料"
+
+msgid "Select DocType"
+msgstr "选择文档类型"
+
+msgid "Document Name"
+msgstr "文档名称"
+
+msgid "Referrer"
+msgstr "来源"
+
+msgid "Geolocation"
+msgstr "地理位置"
+
+msgid "Component"
+msgstr "组件"
+
+msgid "Introduction"
+msgstr "介绍"
+
+msgid "Route"
+msgstr "路径"
+
+msgid "Filter List"
+msgstr "过滤列表"
+
+msgid "From User"
+msgstr "来自用户"
+
+msgid "Read"
+msgstr "只读"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Property"
+msgstr "属性"
+
+msgid "Links"
+msgstr "链接"
+
+msgid "Attachments"
+msgstr "附件"
+
+msgid "email"
+msgstr "邮箱"
+
+msgid "To apply condition on parent field use parent.field_name and"
+msgstr "要在父字段上应用条件，请使用parent.field_name和"
+
+
+msgid "Active Customers"
+msgstr "活跃客户"
+
+msgid "Active Suppliers"
+msgstr "活跃供应商"
+
+msgid "Annual Purchase"
+msgstr "年度采购"
+
+msgid "Annual Sales"
+msgstr "年度销售"
+
+msgid "Applicant-to-Hire Percentage"
+msgstr "录用比例"
+
+msgid "Average Sales Order Value"
+msgstr "平均销售订单金额"
+
+msgid "Sales Orders Count"
+msgstr "销售订单数量"
+
+msgid "Timesheet Working Hours"
+msgstr "工时表工作小时"
+
+msgid "Total Incentive Given(Last month)"
+msgstr "总激励发放（上月）"
+
+msgid "Total Outgoing Salary(Last month)"
+msgstr "总薪资支出（上月）"
+
+msgid "Total Salary Structure"
+msgstr "薪资结构总数"
+
+msgid "Open Opportunity"
+msgstr "开放商机"
+
+msgid "Bulk Update"
+msgstr "批量更新"
+
+msgid "Download Backups"
+msgstr "下载备份"
+
+msgid "Export Data"
+msgstr "导出数据"
+
+msgid "Setup"
+msgstr "设置"
+
+msgid "Meeting"
+msgstr "会议"
+
+msgid "UTM Source"
+msgstr "UTM来源"
+
+msgid "Home"
+msgstr "首页"
+
+msgid "Point Of Sale"
+msgstr "销售点"
+
+msgid "Visual Plant Floor"
+msgstr "可视化车间"
+
+msgid "Customer Form Tour"
+msgstr "客户表单导览"
+
+msgid "Supplier Form Tour"
+msgstr "供应商表单导览"
+
+msgid "System Settings"
+msgstr "系统设置"
+
+msgid "Shift & Attendance"
+msgstr "班次与考勤"
+
+msgid "Masters & Reports"
+msgstr "主数据与报表"
+
+msgid "Shifts"
+msgstr "班次"
+
+msgid "Attendance"
+msgstr "考勤"
+
+msgid "Overtime"
+msgstr "加班"
+
+msgid "Employee Checkin"
+msgstr "员工签到"
+
+msgid "Employee Attendance Tool"
+msgstr "员工考勤工具"
+
+msgid "Upload Attendance"
+msgstr "上传考勤"
+
+msgid "Monthly Attendance Sheet"
+msgstr "月度考勤表"
+
+msgid "Shift Attendance"
+msgstr "班次考勤"
+
+msgid "Employee Hours Utilization Based On Timesheet"
+msgstr "基于工时表的员工利用率"
+
+msgid "Project Profitability"
+msgstr "项目盈利能力"
+
+msgid "Employees working on a holiday"
+msgstr "节假日工作员工"
+
+msgid "Shift Location"
+msgstr "班次地点"
+
+msgid "Shift Assignment"
+msgstr "班次分配"
+
+msgid "Shift Schedule"
+msgstr "班次计划"
+
+msgid "Shift Schedule Assignment"
+msgstr "班次计划分配"
+
+msgid "Shift Request"
+msgstr "班次申请"
+
+msgid "Shift Assignment Tool"
+msgstr "班次分配工具"
+
+msgid "Overtime Type"
+msgstr "加班类型"
+
+msgid "Overtime Slip"
+msgstr "加班单"
+
+msgid "Shift Type"
+msgstr "班次类型"
+
+msgid "Attendance Request"
+msgstr "考勤申请"
+
+msgid "Recruitment"
+msgstr "招聘"
+
+msgid "Job Opening"
+msgstr "职位空缺"
+
+msgid "Job Applicant"
+msgstr "职位申请人"
+
+msgid "Staffing Plan"
+msgstr "人员计划"
+
+msgid "Job Offer"
+msgstr "录用通知"
+
+msgid "Employee Referral"
+msgstr "员工推荐"
+
+msgid "Interview"
+msgstr "面试"
+
+msgid "Job Applicant Source"
+msgstr "职位申请人来源"
+
+msgid "Job Applicant Stage"
+msgstr "职位申请人阶段"
+
+msgid "Applicant"
+msgstr "申请人"
+
+msgid "Appointments"
+msgstr "录用"
+
+msgid "Letter Template"
+msgstr "信函模板"
+
+msgid "Interview Type"
+msgstr "面试类型"
+
+msgid "Interview Round"
+msgstr "面试轮次"
+
+msgid "Interview Feedback"
+msgstr "面试反馈"
+
+msgid "Skill Assessment"
+msgstr "技能评估"
+
+msgid "Vacancies"
+msgstr "空缺"
+
+msgid "HR Setup"
+msgstr "人力资源设置"
+
+msgid "Employee Grade"
+msgstr "员工职级"
+
+msgid "Employment Type"
+msgstr "雇佣类型"
+
+msgid "Leave Type"
+msgstr "假期类型"
+
+msgid "Leave Period"
+msgstr "假期期间"
+
+msgid "Leave Policy"
+msgstr "假期政策"
+
+msgid "Leave Allocation"
+msgstr "假期分配"
+
+msgid "Leave Block List"
+msgstr "假期阻止列表"
+
+msgid "Leave Policy Assignment"
+msgstr "假期政策分配"
+
+msgid "Salary Structure"
+msgstr "薪资结构"
+
+msgid "Salary Component"
+msgstr "薪资组成部分"
+
+msgid "Salary Structure Assignment"
+msgstr "薪资结构分配"
+
+msgid "Income Tax Slab"
+msgstr "所得税等级"
+
+msgid "Retention Bonus"
+msgstr "留任奖金"
+
+msgid "Gratuity"
+msgstr "养老金"
+
+msgid "Gratuity Rule"
+msgstr "养老金规则"
+
+msgid "Leaves"
+msgstr "假期"
+
+msgid "Leave Application"
+msgstr "请假申请"
+
+msgid "Compensatory Leave Request"
+msgstr "补休申请"
+
+msgid "Leave Encashment"
+msgstr "假期折现"
+
+msgid "Performance"
+msgstr "绩效"
+
+msgid "Appraisal"
+msgstr "考核"
+
+msgid "Appraisal Template"
+msgstr "考核模板"
+
+msgid "Goal"
+msgstr "目标"
+
+msgid "Key Result Area"
+msgstr "关键职责领域"
+
+msgid "KRA Template"
+msgstr "关键职责模板"
+
+msgid "Appraisal Cycle"
+msgstr "考核周期"
+
+msgid "Employee Feedback"
+msgstr "员工反馈"
+
+msgid "Employee Feedback Criteria"
+msgstr "员工反馈标准"
+
+msgid "Feedback Criteria"
+msgstr "反馈标准"
+
+msgid "Employee Skills"
+msgstr "员工技能"
+
+msgid "Skill"
+msgstr "技能"
+
+msgid "Employee Performance Feedback"
+msgstr "员工绩效反馈"
+
+msgid "Advance Type"
+msgstr "预支类型"
+
+msgid "Vehicle Log"
+msgstr "车辆日志"
+
+msgid "Vehicle Expense Claim"
+msgstr "车辆费用报销"
+
+msgid "Tenure"
+msgstr "任期"
+
+msgid "Employee Promotion"
+msgstr "员工晋升"
+
+msgid "Employee Transfer"
+msgstr "员工调动"
+
+msgid "Employee Onboarding"
+msgstr "员工入职"
+
+msgid "Employee Separation"
+msgstr "员工离职"
+
+msgid "Onboarding Template"
+msgstr "入职模板"
+
+msgid "Separation Template"
+msgstr "离职模板"
+
+msgid "Employee Boarding Activity"
+msgstr "员工入职活动"
+
+msgid "Payroll"
+msgstr "工资单"
+
+msgid "Salary Slip"
+msgstr "工资单"
+
+msgid "Additional Salary"
+msgstr "额外薪资"
+
+msgid "Employee Benefit Application"
+msgstr "员工福利申请"
+
+msgid "Employee Benefit Claim"
+msgstr "员工福利申领"
+
+msgid "Employee Tax Exemption Declaration"
+msgstr "员工免税申报"
+
+msgid "Employee Tax Exemption Proof Submission"
+msgstr "员工免税证明提交"
+
+msgid "Payroll Period"
+msgstr "薪资期间"
+
+msgid "Tax Exemption Category"
+msgstr "免税类别"
+
+msgid "Tax Exemption Sub Category"
+msgstr "免税子类别"
+
+msgid "Salary Withholding"
+msgstr "薪资冻结"
+
+msgid "Salary Withholding Cycle"
+msgstr "薪资冻结周期"
+
+msgid "Tax & Benefits"
+msgstr "税务与福利"
+
+msgid "Total Outgoing Salary (Last month)"
+msgstr "总薪资支出（上月）"
+
+msgid "Total Incentive Given (Last month)"
+msgstr "总激励发放（上月）"
+
+msgid "Outgoing Salary"
+msgstr "薪资支出"
+
+msgid "Department wise Salary (Last month)"
+msgstr "部门薪资（上月）"
+
+msgid "Designation wise Salary (Last month)"
+msgstr "职位薪资（上月）"
+
+msgid "Always add "Draft" Heading for printing draft documents"
+msgstr "始终添加"草稿"标题用于打印草稿文档"
+
+msgid "CTA Description"
+msgstr "CTA描述"
+
+msgid "CTA Label"
+msgstr "CTA标签"
+
+msgid "CTA Title"
+msgstr "CTA标题"
+
+msgid "CTA URL"
+msgstr "CTA链接"
+
+msgid "Card 1"
+msgstr "卡片1"
+
+msgid "Card 2"
+msgstr "卡片2"
+
+msgid "Card 3"
+msgstr "卡片3"
+
+msgid "Card 4"
+msgstr "卡片4"
+
+msgid "Card 5"
+msgstr "卡片5"
+
+msgid "Card 6"
+msgstr "卡片6"
+
+msgid "Card 7"
+msgstr "卡片7"
+
+msgid "Card 8"
+msgstr "卡片8"
+
+msgid "Card 9"
+msgstr "卡片9"
+
+msgid "Card Size"
+msgstr "卡片尺寸"
+
+msgid "Embed HTML"
+msgstr "嵌入HTML"
+
+msgid "Features"
+msgstr "功能特性"
+
+msgid "Footer "Powered By""
+msgstr "页脚"技术支持""
+
+msgid "Image 1"
+msgstr "图片1"
+
+msgid "Image 2"
+msgstr "图片2"
+
+msgid "Image 3"
+msgstr "图片3"
+
+msgid "Image 4"
+msgstr "图片4"
+
+msgid "Image Description"
+msgstr "图片描述"
+
+msgid "Image on Right"
+msgstr "图片在右侧"
+
+msgid "Link Label"
+msgstr "链接标签"
+
+msgid "Link URL"
+msgstr "链接地址"
+
+msgid "Make "name" searchable in Global Search"
+msgstr "使"名称"可在全局搜索中搜索"
+
+msgid "Primary Action Label"
+msgstr "主操作标签"
+
+msgid "Primary Action URL"
+msgstr "主操作链接"
+
+msgid "Restrict Image inside Container"
+msgstr "限制图片在容器内"
+
+msgid "Secondary Action Label"
+msgstr "次要操作标签"
+
+msgid "Secondary Action URL"
+msgstr "次要操作链接"
+
+msgid "Show Confetti"
+msgstr "显示彩带"
+
+msgid "Single Thread"
+msgstr "单线程"
+
+msgid "Split Columns"
+msgstr "分列"
+
+msgid "Subtitle"
+msgstr "副标题"
+
+msgid "Tab 1 Content"
+msgstr "标签页1内容"
+
+msgid "Tab 1 Title"
+msgstr "标签页1标题"
+
+msgid "Tab 2 Content"
+msgstr "标签页2内容"
+
+msgid "Tab 2 Title"
+msgstr "标签页2标题"
+
+msgid "Tab 3 Content"
+msgstr "标签页3内容"
+
+msgid "Tab 3 Title"
+msgstr "标签页3标题"
+
+msgid "Tab 4 Content"
+msgstr "标签页4内容"
+
+msgid "Tab 4 Title"
+msgstr "标签页4标题"
+
+msgid "Tab 5 Content"
+msgstr "标签页5内容"
+
+msgid "Tab 5 Title"
+msgstr "标签页5标题"
+
+msgid "Tab 6 Content"
+msgstr "标签页6内容"
+
+msgid "Tab 6 Title"
+msgstr "标签页6标题"
+
+msgid "Testimonials"
+msgstr "客户评价"
+
+msgid "Vertical Align"
+msgstr "垂直对齐"
+
+msgid "Videos"
+msgstr "视频"
+
+msgid "YouTube Video ID"
+msgstr "YouTube视频ID"
+
+msgid "member_name"
+msgstr "成员名称"
+
+msgid "Active RQ Worker"
+msgstr "活跃RQ工作进程"
+
+msgid "Scheduled Jobs"
+msgstr "计划任务"
+
+msgid "Total System Users"
+msgstr "系统用户总数"
+
+msgid "Total Website Users"
+msgstr "网站用户总数"
+
+msgid "Task"
+msgstr "任务"
+
+msgid "Change Amount Account"
+msgstr "找零科目"
+
+msgid "Base Total"
+msgstr "基础总计"
+
+msgid "Base Grand Total"
+msgstr "基础总计"
+
+msgid "Base Rounded Total"
+msgstr "基础四舍五入总计"
+
+msgid "Purchase Account"
+msgstr "采购科目"
+
+msgid "Base Net Rate"
+msgstr "基础净单价"
+
+msgid "Base Net Amount"
+msgstr "基础净金额"
+
+msgid "Contact Phone"
+msgstr "联系电话"
+
+msgid "LR No"
+msgstr "运输单号"
+
+msgid "Tax Master"
+msgstr "税主数据"
+
+msgid "Included in Printed Rate"
+msgstr "包含在打印价格中"
+
+msgid "On Item Net Amount"
+msgstr "基于物料净金额"
+
+msgid "Tax Amount After Discount"
+msgstr "折扣后税额"
+
+msgid "Tax Amount (Company Currency)"
+msgstr "税额（本位币）"
+
+msgid "Base Tax Amount"
+msgstr "基础税额"
+
+msgid "Base Total Taxes and Charges"
+msgstr "基础总税费"
+
+msgid "Base Rounding Adjustment"
+msgstr "基础四舍五入调整"
+
+msgid "Allocate Advance"
+msgstr "分配预支"
+
+msgid "Base Paid Amount"
+msgstr "基础已付金额"
+
+msgid "Base Change Amount"
+msgstr "基础找零金额"
+
+msgid "Scan Item Barcode"
+msgstr "扫描物料条码"
+
+msgid "Discount %"
+msgstr "折扣%"
+
+msgid "Manufacturer Part No"
+msgstr "制造商零件号"
+
+msgid "Is Purchase Item"
+msgstr "是否采购物料"
+
+msgid "Is Sales Item"
+msgstr "是否销售物料"
+
+msgid "Auto Create Assets"
+msgstr "自动创建资产"
+
+msgid "Standard Rate"
+msgstr "标准价格"
+
+msgid "Maximum Order Qty"
+msgstr "最大订购量"
+
+msgid "Warranty Period"
+msgstr "保修期"
