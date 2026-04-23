@@ -61557,3 +61557,168 @@ msgstr "每年"
 
 msgid "Yes"
 msgstr "是"
+
+msgid "Accounts Payable Ageing"
+msgstr "应付账款账龄"
+
+msgid "Accounts Receivable Ageing"
+msgstr "应收账款账龄"
+
+msgid "Background Job Activity"
+msgstr "后台任务活动"
+
+msgid "Claims by Type"
+msgstr "按类型分的报销"
+
+msgid "Delivery Trends"
+msgstr "交货趋势"
+
+msgid "Department Wise Employee Count"
+msgstr "按部门分的员工数"
+
+msgid "Department wise Expense Claims"
+msgstr "按部门分的费用报销"
+
+msgid "Department Wise Salary(Last Month)"
+msgstr "按部门分的薪资（上月）"
+
+msgid "Department wise Timesheet Hours"
+msgstr "按部门分的工时表小时数"
+
+msgid "Designation Wise Employee Count"
+msgstr "按职位分的员工数"
+
+msgid "Designation Wise Openings"
+msgstr "按职位分的空缺"
+
+msgid "Designation Wise Salary(Last Month)"
+msgstr "按职位分的薪资（上月）"
+
+msgid "Email Activity"
+msgstr "邮件活动"
+
+msgid "Employee Advance Status"
+msgstr "员工预支状态"
+
+msgid "Employees by Age"
+msgstr "按年龄分的员工"
+
+msgid "Employees by Branch"
+msgstr "按分部分的员工"
+
+msgid "Employees by Grade"
+msgstr "按等级分的员工"
+
+msgid "Employees by Type"
+msgstr "按类型分的员工"
+
+msgid "Gender Diversity Ratio"
+msgstr "性别多样性比例"
+
+msgid "Hiring vs Attrition Count"
+msgstr "入职与离职人数"
+
+msgid "Incoming Bills (Purchase Invoice)"
+msgstr "进项账单（采购发票）"
+
+msgid "Incoming Leads"
+msgstr "新增线索"
+
+msgid "Item Shortage Summary"
+msgstr "物料短缺汇总"
+
+msgid "Item-wise Annual Sales"
+msgstr "按物料分的年销售额"
+
+msgid "Job Applicant Pipeline"
+msgstr "职位申请人漏斗"
+
+msgid "Job Applicants by Country"
+msgstr "按国家分的职位申请人"
+
+msgid "Job Application Frequency"
+msgstr "职位申请频率"
+
+msgid "Job Application Status"
+msgstr "职位申请状态"
+
+msgid "Job Offer Status"
+msgstr "录用通知状态"
+
+msgid "Location-wise Asset Value"
+msgstr "按位置分的资产价值"
+
+msgid "Material Request Analysis"
+msgstr "物料需求分析"
+
+msgid "Notifications By Type"
+msgstr "按类型分的通知"
+
+msgid "Oldest Items"
+msgstr "最旧物料"
+
+msgid "Opportunities via Campaigns"
+msgstr "通过营销活动获得的商机"
+
+msgid "Opportunity Trends"
+msgstr "商机趋势"
+
+msgid "Outgoing Bills (Sales Invoice)"
+msgstr "销项账单（销售发票）"
+
+msgid "Shift Assignment Breakup"
+msgstr "班次分配分布"
+
+msgid "Territory Wise Opportunity Count"
+msgstr "按区域分的商机数"
+
+msgid "Territory Wise Sales"
+msgstr "按区域分的销售额"
+
+msgid "Timesheet Activity Breakup"
+msgstr "工时表活动分布"
+
+msgid "Top Customers"
+msgstr "顶级客户"
+
+msgid "Top Suppliers"
+msgstr "顶级供应商"
+
+msgid "Training Type"
+msgstr "培训类型"
+
+msgid "Warehouse wise Stock Value"
+msgstr "按仓库分的库存价值"
+
+msgid "Webpage Views"
+msgstr "网页浏览量"
+
+msgid "Y-O-Y Promotions"
+msgstr "同比晋升"
+
+msgid "Y-O-Y Transfers"
+msgstr "同比调动"
+
+msgid "Active Employees"
+msgstr "在职员工"
+
+msgid "Average Expense Claim"
+msgstr "平均费用报销"
+
+msgid "Average Hours Worked"
+msgstr "平均工作时长"
+
+msgid "Employees on Leave Today"
+msgstr "今日请假员工"
+
+msgid "Holidays in this Month"
+msgstr "本月节假日"
+
+msgid "New Hires (Last Month)"
+msgstr "新入职员工（上月）"
+
+msgid "Total Employees"
+msgstr "员工总数"
+
+msgid "Unpaid Expense Claims"
+msgstr "未付款费用报销"
