@@ -61722,3 +61722,234 @@ msgstr "员工总数"
 
 msgid "Unpaid Expense Claims"
 msgstr "未付款费用报销"
+
+msgid "Basic Details"
+msgstr "基本信息"
+
+msgid "Basic Information"
+msgstr "基本资料"
+
+msgid "Gender"
+msgstr "性别"
+
+msgid "Salutation"
+msgstr "称谓"
+
+msgid "Image"
+msgstr "照片"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "ERPNext User"
+msgstr "ERPNext用户"
+
+msgid "User ID"
+msgstr "用户ID"
+
+msgid "Create User Permission"
+msgstr "创建用户权限"
+
+msgid "Create User Automatically"
+msgstr "自动创建用户"
+
+msgid "Company Details"
+msgstr "公司信息"
+
+msgid "Department"
+msgstr "部门"
+
+msgid "Employee Number"
+msgstr "员工编号"
+
+msgid "Designation"
+msgstr "职位"
+
+msgid "Reports to"
+msgstr "上级主管"
+
+msgid "Branch"
+msgstr "分支机构"
+
+msgid "Contact Details"
+msgstr "联系方式"
+
+msgid "Mobile Number"
+msgstr "手机号码"
+
+msgid "Company Email"
+msgstr "公司邮箱"
+
+msgid "Personal Email"
+msgstr "个人邮箱"
+
+msgid "Preferred Contact Email"
+msgstr "首选联系邮箱"
+
+msgid "Preferred Email (Read Only)"
+msgstr "首选邮箱（只读）"
+
+msgid "Unsubscribed"
+msgstr "取消订阅"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "Current Address"
+msgstr "当前地址"
+
+msgid "Current Accommodation Type"
+msgstr "当前住宿类型"
+
+msgid "Permanent Address"
+msgstr "永久地址"
+
+msgid "Permanent Accommodation Type"
+msgstr "永久住宿类型"
+
+msgid "Emergency Contact Details"
+msgstr "紧急联系方式"
+
+msgid "Person to be Contacted"
+msgstr "紧急联系人"
+
+msgid "Emergency Phone Number"
+msgstr "紧急电话号码"
+
+msgid "Relation"
+msgstr "关系"
+
+msgid "Attendance and Leave Details"
+msgstr "考勤与假期信息"
+
+msgid "Attendance Device ID (Biometric/RF tag ID)"
+msgstr "考勤设备ID（生物识别/RF标签ID）"
+
+msgid "Holiday List"
+msgstr "假期列表"
+
+msgid "Salary Information"
+msgstr "薪资信息"
+
+msgid "CTC"
+msgstr "薪资总额"
+
+msgid "Salary Currency"
+msgstr "薪资货币"
+
+msgid "Salary Mode"
+msgstr "薪资发放方式"
+
+msgid "Bank Details"
+msgstr "银行信息"
+
+msgid "Bank Name"
+msgstr "银行名称"
+
+msgid "Bank Account No."
+msgstr "银行账号"
+
+msgid "IBAN"
+msgstr "国际银行账号"
+
+msgid "Personal Details"
+msgstr "个人资料"
+
+msgid "Marital Status"
+msgstr "婚姻状况"
+
+msgid "Family Background"
+msgstr "家庭背景"
+
+msgid "Blood Group"
+msgstr "血型"
+
+msgid "Health Details"
+msgstr "健康信息"
+
+msgid "Passport Details"
+msgstr "护照信息"
+
+msgid "Passport Number"
+msgstr "护照号码"
+
+msgid "Valid Upto"
+msgstr "有效期至"
+
+msgid "Date of Issue"
+msgstr "签发日期"
+
+msgid "Place of Issue"
+msgstr "签发地点"
+
+msgid "Profile"
+msgstr "个人资料"
+
+msgid "Bio"
+msgstr "个人简介"
+
+msgid "Educational Qualification"
+msgstr "学历"
+
+msgid "Education"
+msgstr "教育经历"
+
+msgid "Previous Work Experience"
+msgstr "以往工作经验"
+
+msgid "External Work History"
+msgstr "外部工作经历"
+
+msgid "History in Company"
+msgstr "在公司履历"
+
+msgid "Internal Work History"
+msgstr "内部工作履历"
+
+msgid "Employment Details"
+msgstr "雇佣详情"
+
+msgid "Scheduled Confirmation Date"
+msgstr "预计转正日期"
+
+msgid "Final Confirmation Date"
+msgstr "最终转正日期"
+
+msgid "Contract End Date"
+msgstr "合同结束日期"
+
+msgid "Notice Period (Days)"
+msgstr "通知期（天）"
+
+msgid "Date of Retirement"
+msgstr "退休日期"
+
+msgid "Exit"
+msgstr "离职"
+
+msgid "Resignation Details"
+msgstr "离职详情"
+
+msgid "Relieving Date"
+msgstr "离职日期"
+
+msgid "Reason for Leaving"
+msgstr "离职原因"
+
+msgid "Leave Encashment On Separation"
+msgstr "离职时假期折现"
+
+msgid "Encashment Date"
+msgstr "折现日期"
+
+msgid "Held On"
+msgstr "举行日期"
+
+msgid "New Workplace"
+msgstr "新工作地点"
+
+msgid "Feedback"
+msgstr "反馈意见"
+
+msgid "Personal Bio"
+msgstr "个人简介"
