@@ -137,14 +137,21 @@ frappe.query_reports["Accounts Receivable Summary"] = {
 			fieldtype: "Check",
 		},
 		{
-			fieldname: "for_revaluation_journals",
-			label: __("Revaluation Journals"),
-			fieldtype: "Check",
+		        fieldname: "for_revaluation_journals",
+		        label: __("Revaluation Journals"),
+		        fieldtype: "Check",
 		},
-	],
+		],
 
-	onload: function (report) {
-		report.page.add_inner_button(__("Accounts Receivable"), function () {
+		formatter: function (value, row, column, data, default_formatter) {
+		if (data && column.fieldname === "party_type") {
+		        value = __(value);
+		}
+		value = default_formatter(value, row, column, data);
+		return value;
+		},
+
+		onload: function (report) {		report.page.add_inner_button(__("Accounts Receivable"), function () {
 			var filters = report.get_values();
 			frappe.set_route("query-report", "Accounts Receivable", { company: filters.company });
 		});

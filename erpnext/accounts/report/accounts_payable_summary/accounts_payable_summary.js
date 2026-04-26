@@ -120,6 +120,14 @@ frappe.query_reports["Accounts Payable Summary"] = {
 		},
 	],
 
+	formatter: function (value, row, column, data, default_formatter) {
+		if (data && column.fieldname === "party_type") {
+			value = __(value);
+		}
+		value = default_formatter(value, row, column, data);
+		return value;
+	},
+
 	onload: function (report) {
 		report.page.add_inner_button(__("Accounts Payable"), function () {
 			var filters = report.get_values();

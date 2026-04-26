@@ -164,6 +164,9 @@ frappe.query_reports["Accounts Payable"] = {
 	],
 
 	formatter: function (value, row, column, data, default_formatter) {
+		if (data && (column.fieldname === "party_type" || column.fieldname === "voucher_type")) {
+			value = __(value);
+		}
 		value = default_formatter(value, row, column, data);
 		if (data && data.bold) {
 			value = value.bold();

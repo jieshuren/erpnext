@@ -224,6 +224,20 @@ frappe.query_reports["General Ledger"] = {
 			fieldtype: "Check",
 		},
 	],
+
+	formatter: function (value, row, column, data, default_formatter) {
+		if (
+			data &&
+			(column.fieldname === "voucher_type" ||
+				column.fieldname === "against_voucher_type" ||
+				column.fieldname === "party_type")
+		) {
+			value = __(value);
+		}
+		value = default_formatter(value, row, column, data);
+		return value;
+	},
+
 	collapsible_filters: true,
 	seperate_check_filters: true,
 };
