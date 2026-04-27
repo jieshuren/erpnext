@@ -377,7 +377,7 @@
  "idx": 70,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-03-09 17:15:30.124509",
+ "modified": "2026-04-27 10:07:55.195917",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Material Request",
@@ -440,6 +440,18 @@
    "role": "Purchase User",
    "share": 1,
    "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
    "write": 1
   }
  ],
