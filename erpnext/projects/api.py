@@ -149,7 +149,7 @@ def get_mobile_project_management_overview(project: str | None = None, limit: in
 	logs = frappe.get_list(
 		"Construction Work Log",
 		filters=log_filters,
-		fields=["name", "project", "project_name", "task", "status", "work_date", "shift", "team", "reporter", "well_no", "footage", "rig_total_hours", "pump_total_hours", "drill_pipe_count", "construction_process", "risk", "next_plan", "creation"],
+		fields=["name", "project", "project_name", "task", "status", "work_date", "shift", "team", "reporter", "well_no", "footage", "rig_total_hours", "pump_total_hours", "drill_pipe_count", "construction_process", "risk", "next_plan", "sand_flushing_hours", "creation"],
 		order_by="work_date desc, creation desc",
 		limit=200,
 		ignore_permissions=True,
@@ -216,6 +216,8 @@ def save_mobile_construction_work_log(**kwargs) -> dict:
 		"pump_idle_hours": _mobile_float(data.get("pump_idle_hours")),
 		"pump_milling_hours": _mobile_float(data.get("pump_milling_hours")),
 		"pump_forging_milling_hours": _mobile_float(data.get("pump_forging_milling_hours")),
+		"sand_flushing_hours": _mobile_float(data.get("sand_flushing_hours")),
+		"pump_sand_flushing_hours": _mobile_float(data.get("pump_sand_flushing_hours")),
 		"drill_pipe_count": _mobile_int(data.get("drill_pipe_count")),
 		"total_tools_count": _mobile_int(data.get("total_tools_count")),
 		"workload_summary": data.get("workload_summary"),
