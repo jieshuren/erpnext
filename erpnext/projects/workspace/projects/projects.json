@@ -4,6 +4,10 @@
   {
    "chart_name": "Completed Projects",
    "label": "Completed Projects"
+  },
+  {
+   "chart_name": "Completed Projects",
+   "label": "Completed Projects"
   }
  ],
  "content": "[{\"id\":\"7Mbx6I5JUf\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"fVYsju6dB9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Completed Projects\",\"col\":12}},{\"id\":\"67w8up7H_0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open Projects\",\"col\":4}},{\"id\":\"IFEYSadaYc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Non Completed Tasks\",\"col\":4}},{\"id\":\"VqbqxA0YL1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Working Hours\",\"col\":4}},{\"id\":\"oGhjvYjfv-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"TdsgJyG3EI\",\"type\":\"card\",\"data\":{\"card_name\":\"Projects\",\"col\":4}},{\"id\":\"nIc0iyvf1T\",\"type\":\"card\",\"data\":{\"card_name\":\"Time Tracking\",\"col\":4}},{\"id\":\"8G1if4jsQ7\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"o7qTNRXZI8\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
@@ -79,17 +83,6 @@
    "link_to": "Project Update",
    "link_type": "DocType",
    "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "dependencies": "",
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Construction Work Log",
-   "link_count": 0,
-   "link_to": "Construction Work Log",
-   "link_type": "DocType",
-   "onboard": 1,
    "type": "Link"
   },
   {
@@ -202,9 +195,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Construction Work Log",
+   "link_count": 0,
+   "link_to": "Construction Work Log",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
   }
  ],
- "modified": "2026-01-02 17:26:44.644507",
+ "modified": "2026-05-03 20:49:27.756772",
  "modified_by": "Administrator",
  "module": "Projects",
  "name": "Projects",
@@ -214,8 +217,20 @@
    "number_card_name": "Timesheet Working Hours"
   },
   {
+   "label": "Working Hours",
+   "number_card_name": "Timesheet Working Hours"
+  },
+  {
    "label": "Open Projects",
    "number_card_name": "Open Projects"
+  },
+  {
+   "label": "Open Projects",
+   "number_card_name": "Open Projects"
+  },
+  {
+   "label": "Non Completed Tasks",
+   "number_card_name": "Non Completed Tasks"
   },
   {
    "label": "Non Completed Tasks",
