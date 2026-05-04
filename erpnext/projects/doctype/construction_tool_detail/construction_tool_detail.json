@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "creation": "2026-05-03 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tool_name",
+  "outer_diameter",
+  "length",
+  "count",
+  "total_length",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "tool_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tool Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "outer_diameter",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Outer Diameter (mm)"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Length (m)"
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Count"
+  },
+  {
+   "fieldname": "total_length",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Length (m)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "istable": 1,
+ "module": "Projects",
+ "name": "Construction Tool Detail",
+ "owner": "Administrator"
+}

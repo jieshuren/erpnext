@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "creation": "2026-05-03 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "activity_type",
+  "start_time",
+  "end_time",
+  "duration",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "activity_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Activity Type",
+   "options": "接班\n起下管柱\n冲沙\n磨铣\n锻铣\n找通道\n造扣\n打捞\n设备维修\n等待决策\n班前会\n清理井场\n交班",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "End Time"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Duration (h)"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  }
+ ],
+ "istable": 1,
+ "module": "Projects",
+ "name": "Construction Activity Log",
+ "owner": "Administrator"
+}
