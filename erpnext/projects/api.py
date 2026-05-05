@@ -43,7 +43,7 @@ def _get_or_create_project_for_mobile(well_no: str, project: str | None = None, 
 	project_name = (project_name or well_no or project).strip()
 	if project:
 		if not frappe.db.exists("Project", project):
-			frappe.throw(_("Project {0} does not exist").format(project))
+			return project
 		return project
 
 	if not project_name:
@@ -177,7 +177,8 @@ def save_mobile_construction_work_log(**kwargs) -> dict:
 	timesheet = _create_timesheet_for_log(project, task, data)
 
 	log_name = (data.get("name") or "").strip()
-	doc = frappe.get_doc("Construction Work Log", log_name) if log_name else frappe.new_doc("Construction Work Log")
+	doc = frappe.get_doc("Construction Work Log", log_name) if log_name and frappe.db.exists("Construction Work Log", log_name) else frappe.new_doc("Construction Work Log")
+	
 	doc.update({
 		"project": project,
 		"project_name": frappe.db.get_value("Project", project, "project_name") or project,
@@ -215,11 +216,11 @@ def save_mobile_construction_work_log(**kwargs) -> dict:
 		"milling_hours": _mobile_float(data.get("milling_hours")),
 		"channel_finding_hours": _mobile_float(data.get("channel_finding_hours")),
 		"forging_milling_hours": _mobile_float(data.get("forging_milling_hours")),
+		"sand_flushing_hours": _mobile_float(data.get("sand_flushing_hours")),
 		"pump_total_hours": _mobile_float(data.get("pump_total_hours")),
 		"pump_idle_hours": _mobile_float(data.get("pump_idle_hours")),
 		"pump_milling_hours": _mobile_float(data.get("pump_milling_hours")),
 		"pump_forging_milling_hours": _mobile_float(data.get("pump_forging_milling_hours")),
-		"sand_flushing_hours": _mobile_float(data.get("sand_flushing_hours")),
 		"pump_sand_flushing_hours": _mobile_float(data.get("pump_sand_flushing_hours")),
 		"drill_pipe_count": _mobile_int(data.get("drill_pipe_count")),
 		"drill_pipe_73_count": _mobile_int(data.get("drill_pipe_73_count")),
@@ -231,7 +232,33 @@ def save_mobile_construction_work_log(**kwargs) -> dict:
 		"next_plan": data.get("next_plan"),
 		"raw_report": data.get("raw_report"),
 	})
-	if log_name:
+
+	# 保存子表：工序明细
+	if data.get("activities"):
+		doc.set("activities", [])
+		for row in data.get("activities"):
+			doc.append("activities", {
+				"activity_type": row.get("activity_type"),
+				"start_time": row.get("start_time"),
+				"end_time": row.get("end_time"),
+				"duration": _mobile_float(row.get("duration")),
+				"description": row.get("description")
+			})
+
+	# 保存子表：工具明细
+	if data.get("tools"):
+		doc.set("tools", [])
+		for row in data.get("tools"):
+			doc.append("tools", {
+				"tool_name": row.get("tool_name"),
+				"outer_diameter": row.get("outer_diameter"),
+				"length": _mobile_float(row.get("length")),
+				"count": _mobile_int(row.get("count")),
+				"total_length": _mobile_float(row.get("length")) * _mobile_int(row.get("count")),
+				"remarks": row.get("remarks")
+			})
+
+	if log_name and frappe.db.exists("Construction Work Log", log_name):
 		doc.save(ignore_permissions=True)
 	else:
 		doc.insert(ignore_permissions=True)

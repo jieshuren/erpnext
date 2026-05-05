@@ -11,6 +11,7 @@ from frappe.core.doctype.report.report import get_report_module_dotted_path
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 from frappe.tests.utils import load_test_records_for
 from frappe.utils import now_datetime, today
+from frappe.utils.nestedset import get_root_of
 
 ReportFilters = dict[str, Any]
 ReportName = NewType("ReportName", str)
@@ -81,8 +82,14 @@ def if_lending_app_not_installed(function):
 
 class BootStrapTestData:
 	def __init__(self):
+		self.make_countries_and_currencies()
 		self.make_presets()
 		self.make_master_data()
+
+	def make_countries_and_currencies(self):
+		from frappe.geo.doctype.country.country import import_country_and_currency
+
+		import_country_and_currency()
 
 	def make_presets(self):
 		from frappe.desk.page.setup_wizard.install_fixtures import update_genders, update_salutations
@@ -96,7 +103,7 @@ class BootStrapTestData:
 		update_genders()
 		update_salutations()
 
-		records = get_preset_records("India")
+		records = get_preset_records("China")
 
 		from erpnext.setup.setup_wizard.operations.install_fixtures import read_lines
 
@@ -225,8 +232,8 @@ class BootStrapTestData:
 
 	def update_system_settings(self):
 		system_settings = frappe.get_doc("System Settings")
-		system_settings.time_zone = "Asia/Kolkata"
-		system_settings.language = "en"
+		system_settings.time_zone = "Asia/Shanghai"
+		system_settings.language = "zh"
 		system_settings.currency_precision = system_settings.float_precision = 2
 		system_settings.rounding_method = "Banker's Rounding"
 		system_settings.save()
@@ -276,7 +283,7 @@ class BootStrapTestData:
 				"enabled": 1,
 				"buying": 1,
 				"selling": 0,
-				"currency": "INR",
+				"currency": "CNY",
 			},
 			{
 				"doctype": "Price List",
@@ -284,11 +291,11 @@ class BootStrapTestData:
 				"enabled": 1,
 				"buying": 0,
 				"selling": 1,
-				"currency": "INR",
+				"currency": "CNY",
 			},
 			{
 				"buying": 1,
-				"currency": "INR",
+				"currency": "CNY",
 				"doctype": "Price List",
 				"enabled": 1,
 				"price_not_uom_dependant": 1,
@@ -297,7 +304,7 @@ class BootStrapTestData:
 			},
 			{
 				"buying": 1,
-				"currency": "INR",
+				"currency": "CNY",
 				"doctype": "Price List",
 				"enabled": 1,
 				"price_list_name": "_Test Price List 2",
@@ -305,10 +312,10 @@ class BootStrapTestData:
 			},
 			{
 				"buying": 1,
-				"currency": "INR",
+				"currency": "CNY",
 				"doctype": "Price List",
 				"enabled": 1,
-				"price_list_name": "_Test Price List India",
+				"price_list_name": "_Test Price List China",
 				"selling": 1,
 			},
 			{
@@ -402,12 +409,12 @@ class BootStrapTestData:
 				"doctype": "Territory",
 				"is_group": 1,
 				"parent_territory": "All Territories",
-				"territory_name": "_Test Territory India",
+				"territory_name": "_Test Territory China",
 			},
 			{
 				"doctype": "Territory",
 				"is_group": 0,
-				"parent_territory": "_Test Territory India",
+				"parent_territory": "_Test Territory China",
 				"territory_name": "_Test Territory Maharashtra",
 			},
 			{
@@ -420,7 +427,7 @@ class BootStrapTestData:
 				"doctype": "Territory",
 				"is_group": 0,
 				"parent_territory": "All Territories",
-				"territory_name": "_Test Territory United States",
+				"territory_name": "_Test Territory China",
 			},
 		]
 		self.make_records(["territory_name"], records)
@@ -431,13 +438,13 @@ class BootStrapTestData:
 				"doctype": "Department",
 				"department_name": "_Test Department",
 				"company": "_Test Company",
-				"parent_department": "All Departments",
+				"parent_department": "所有部门",
 			},
 			{
 				"doctype": "Department",
 				"department_name": "_Test Department 1",
 				"company": "_Test Company",
-				"parent_department": "All Departments",
+				"parent_department": "所有部门",
 			},
 		]
 		self.make_records(["department_name"], records)
@@ -591,24 +598,29 @@ class BootStrapTestData:
 		self.make_records(["first_name"], records)
 
 	def make_sales_person(self):
+		employee_by_first_name = {
+			"_Test Employee": frappe.db.get_value("Employee", {"first_name": "_Test Employee"}, "name"),
+			"_Test Employee 1": frappe.db.get_value("Employee", {"first_name": "_Test Employee 1"}, "name"),
+			"_Test Employee 2": frappe.db.get_value("Employee", {"first_name": "_Test Employee 2"}, "name"),
+		}
 		records = [
 			{
 				"doctype": "Sales Person",
-				"employee": "_T-Employee-00001",
+				"employee": employee_by_first_name["_Test Employee"],
 				"is_group": 0,
 				"parent_sales_person": "Sales Team",
 				"sales_person_name": "_Test Sales Person",
 			},
 			{
 				"doctype": "Sales Person",
-				"employee": "_T-Employee-00002",
+				"employee": employee_by_first_name["_Test Employee 1"],
 				"is_group": 0,
 				"parent_sales_person": "Sales Team",
 				"sales_person_name": "_Test Sales Person 1",
 			},
 			{
 				"doctype": "Sales Person",
-				"employee": "_T-Employee-00003",
+				"employee": employee_by_first_name["_Test Employee 2"],
 				"is_group": 0,
 				"parent_sales_person": "Sales Team",
 				"sales_person_name": "_Test Sales Person 2",
@@ -620,15 +632,15 @@ class BootStrapTestData:
 		records = [
 			{
 				"doctype": "Sales Partner",
-				"partner_name": "_Test Sales Partner India - 1",
+				"partner_name": "_Test Sales Partner China - 1",
 				"commission_rate": 7,
-				"territory": "_Test Territory India",
+				"territory": "_Test Territory China",
 			},
 			{
 				"doctype": "Sales Partner",
-				"partner_name": "_Test Sales Partner India - 2",
+				"partner_name": "_Test Sales Partner China - 2",
 				"commission_rate": 5,
-				"territory": "_Test Territory India",
+				"territory": "_Test Territory China",
 			},
 			{
 				"doctype": "Sales Partner",
@@ -876,7 +888,7 @@ class BootStrapTestData:
 				"doctype": "Supplier",
 				"supplier_name": "_Test Supplier with Country",
 				"supplier_group": "_Test Supplier Group",
-				"country": "Greece",
+				"country": "China",
 			},
 			{
 				"doctype": "Supplier",
@@ -921,10 +933,10 @@ class BootStrapTestData:
 	def make_supplier_group(self):
 		records = [
 			{
-				"doctype": "Supplier Group",
-				"supplier_group_name": "_Test Supplier Group",
-				"parent_supplier_group": "All Supplier Groups",
-			}
+					"doctype": "Supplier Group",
+					"supplier_group_name": "_Test Supplier Group",
+					"parent_supplier_group": get_root_of("Supplier Group"),
+				}
 		]
 		self.make_records(["supplier_group_name"], records)
 
@@ -2216,7 +2228,7 @@ class BootStrapTestData:
 						"row_id": 7,
 					},
 				],
-				"title": "_Test India Tax Master",
+				"title": "_Test China Tax Master",
 			},
 			{
 				"company": "_Test Company",
@@ -2800,8 +2812,8 @@ class BootStrapTestData:
 				"address_type": "Billing",
 				"address_line1": "Address line 1",
 				"address_title": "_Test Billing Address Title",
-				"city": "Lagos",
-				"country": "Nigeria",
+				"city": "Shanghai",
+				"country": "China",
 				"links": [
 					{"link_doctype": "Customer", "link_name": "_Test Customer 2", "doctype": "Dynamic Link"}
 				],
@@ -2811,8 +2823,8 @@ class BootStrapTestData:
 				"address_type": "Shipping",
 				"address_line1": "Address line 2",
 				"address_title": "_Test Shipping Address 1 Title",
-				"city": "Lagos",
-				"country": "Nigeria",
+				"city": "Shanghai",
+				"country": "China",
 				"links": [
 					{"link_doctype": "Customer", "link_name": "_Test Customer 2", "doctype": "Dynamic Link"}
 				],
@@ -2822,8 +2834,8 @@ class BootStrapTestData:
 				"address_type": "Shipping",
 				"address_line1": "Address line 3",
 				"address_title": "_Test Shipping Address 2 Title",
-				"city": "Lagos",
-				"country": "Nigeria",
+				"city": "Shanghai",
+				"country": "China",
 				"is_shipping_address": "1",
 				"links": [
 					{"link_doctype": "Customer", "link_name": "_Test Customer 2", "doctype": "Dynamic Link"}
@@ -2834,8 +2846,8 @@ class BootStrapTestData:
 				"address_type": "Billing",
 				"address_line1": "Address line 4",
 				"address_title": "_Test Billing Address 2 Title",
-				"city": "Lagos",
-				"country": "Nigeria",
+				"city": "Shanghai",
+				"country": "China",
 				"is_shipping_address": "1",
 				"links": [
 					{"link_doctype": "Customer", "link_name": "_Test Customer 1", "doctype": "Dynamic Link"}
@@ -2848,7 +2860,7 @@ class BootStrapTestData:
 				"address_line1": "Station Road",
 				"city": "_Test City",
 				"state": "Test State",
-				"country": "India",
+				"country": "China",
 				"links": [{"link_doctype": "Customer", "link_name": "_Test Customer"}],
 			},
 		]

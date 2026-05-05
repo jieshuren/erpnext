@@ -393,9 +393,8 @@
   },
   {
    "fieldname": "current_accommodation_type",
-   "fieldtype": "Link",
-   "label": "Current Accommodation Type",
-   "options": "Employee Accommodation Type"
+   "fieldtype": "Data",
+   "label": "Current Accommodation Type"
   },
   {
    "fieldname": "column_break_46",
@@ -410,9 +409,8 @@
   },
   {
    "fieldname": "permanent_accommodation_type",
-   "fieldtype": "Link",
-   "label": "Permanent Accommodation Type",
-   "options": "Employee Accommodation Type"
+   "fieldtype": "Data",
+   "label": "Permanent Accommodation Type"
   },
   {
    "fieldname": "emergency_contact_details",

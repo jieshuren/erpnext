@@ -18,10 +18,10 @@ class TestCompany(ERPNextTestSuite):
 		company = frappe.new_doc("Company")
 		company.company_name = "COA from Existing Company"
 		company.abbr = "CFEC"
-		company.default_currency = "INR"
+		company.default_currency = "CNY"
 		company.create_chart_of_accounts_based_on = "Existing Company"
 		company.existing_company = "_Test Company"
-		company.country = "India"
+		company.country = "China"
 		company.save()
 
 		expected_results = {
@@ -141,13 +141,13 @@ class TestCompany(ERPNextTestSuite):
 			{
 				"address_title": "Non Primary",
 				"doctype": "Address",
-				"address_type": "Billing",
-				"address_line1": "Something",
-				"city": "Mumbai",
-				"state": "Maharashtra",
-				"country": "India",
-				"is_primary_address": 1,
-				"pincode": "400098",
+					"address_type": "Billing",
+					"address_line1": "Something",
+					"city": "Shanghai",
+					"state": "Shanghai",
+					"country": "China",
+					"is_primary_address": 1,
+					"pincode": "200000",
 				"links": [
 					{
 						"link_doctype": "Company",
@@ -233,12 +233,12 @@ def create_child_company():
 	child_company = frappe.db.exists("Company", "Test Company")
 	if not child_company:
 		child_company = frappe.get_doc(
-			{
-				"doctype": "Company",
-				"company_name": "Test Company",
-				"abbr": "test_company",
-				"default_currency": "INR",
-			}
+				{
+					"doctype": "Company",
+					"company_name": "Test Company",
+					"abbr": "test_company",
+					"default_currency": "CNY",
+				}
 		)
 		child_company.insert()
 	else:
